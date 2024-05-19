@@ -1,0 +1,61 @@
+@font-face {
+  src: url(fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+  src: url(fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+/* common start */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+  margin: 0;
+}
+/* common end */
+/* header start */
+header {
+  padding: 30px 0;
+  border: 1px solid;
+}
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 90%;
+  /* border: 1px solid; */
+}
+.logo {
+  margin: 10px auto;
+  float: left;
+  width: 12%;
+  /* border: 1px solid; */
+}
+.logo a img {
+  width: 100%;
+}
+.menu {
+  float: right;
+  width: 70%;
+  /* border: 1px solid; */
+}
+.menu ul {
+  list-style: none;
+  float: right;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  color: #626262;
+  display: inline-block;
+  padding: 0 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  transition: 0.33s linear;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.menu ul li a:hover {
+  border-bottom: 1px solid #626262;
+}
+/* header end */
